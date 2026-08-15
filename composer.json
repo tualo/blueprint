@@ -1,16 +1,17 @@
 {
-    "name": "tualo/blueprint",
-    "description": "Blueprint package for Tualo Office package structure and example implementation",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Tualo\\Office\\Blueprint\\": "src/"
-        },
-        "files": [
-            "src/functions.php"
-        ]
+  "name": "tualo/blueprint",
+  "description": "Blueprint package for Tualo Office package structure and example implementation",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Tualo\\Office\\Blueprint\\": "src/"
     },
-    "minimum-stability": "dev",
-    "require": {}
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "require": {},
+  "version": "1.0.1"
 }
